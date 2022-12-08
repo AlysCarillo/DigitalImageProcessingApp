@@ -1,0 +1,15 @@
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\bin\Debug\Carillo_DIP.exe.config
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\bin\Debug\Carillo_DIP.exe
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\bin\Debug\Carillo_DIP.pdb
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\obj\Debug\Carillo_DIP.csproj.AssemblyReference.cache
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\obj\Debug\Carillo_DIP.csproj.SuggestedBindingRedirects.cache
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\obj\Debug\Carillo_DIP.DIP.resources
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\obj\Debug\Carillo_DIP.Properties.Resources.resources
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\obj\Debug\Carillo_DIP.csproj.GenerateResource.cache
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\obj\Debug\Carillo_DIP.csproj.CoreCompileInputs.cache
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\obj\Debug\Carillo_DIP.exe
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\obj\Debug\Carillo_DIP.pdb
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\bin\Debug\Carillo_DIP.exe.manifest
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\bin\Debug\Carillo_DIP.application
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\obj\Debug\Carillo_DIP.exe.manifest
+F:\CS CLASS FILES\CS345 INTELLIGENT SYSTEMS\DIP\Carillo_DIP\obj\Debug\Carillo_DIP.application

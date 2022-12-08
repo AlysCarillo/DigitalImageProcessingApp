@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Carillo_DIP.exe" version="1.0.0.1" publicKeyToken="59a3254b72e77d36" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Carillo_DIP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Carillo_DIP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Carillo_DIP.exe" size="15832">
+      <assemblyIdentity name="Carillo_DIP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rHd/uhDFmFln4+yRtulxQVym9RlWhGJXhgx5DvPMHo0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Carillo_DIP.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-N3MQ3RG\Alys" issuerKeyHash="8c09399a29c25f6027ea486bfe9a78f16e60ab89" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>64VPDObxCdK67E5c/fXTn01fLMLcM6s7GCb8juzavMw=</DigestValue></Reference></SignedInfo><SignatureValue>CY8yRsL7mBq6J4oqduiN5Iod1dQ5EYnudQw5x/xDgPvXQcOvHdeoGUGM4rNGYQRscNWv7iym3TNElu0rxuGPz0NKLma9dyVlfAz0/feeMOqmOZgIvaIKW3D1EYPleMzpTvTHWm9BfmzcBoLzWEHlphrINQT8Ov+PSvV+jmwKHTI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pq0DE7FGYK+YPPo1pUEgZJI2BmuzHjIvCjQOSSwvv/79H/IyrRNgXTDKtYbsFx6bdMloQjAjiV9SGWk7W2S88fKfAGMKiLjmX7wsNaKgETbDOV3Ag9dtJRvKryip43UsfcTHP2JVOJ6jF8F7GC8d9lyQaFRpusGwtCSeSrVw/CU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ccbcdaec8efc26183bab33dcc22c5f4d9fd3f5fd5c4eecbad209f1e60c4f85eb" Description="" Url=""><as:assemblyIdentity name="Carillo_DIP.exe" version="1.0.0.1" publicKeyToken="59a3254b72e77d36" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-N3MQ3RG\Alys</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sOQ4NDqzBLVNSpJpg/kZlOzLDJZ0FlIPpgKVurPyoR0=</DigestValue></Reference></SignedInfo><SignatureValue>nRZ/iWxqHHOKjy3uz6T6OmW3GS+708FnX6s0/ZjJpSHZWf/+5x1xghERzKCsiFqyY4erYBWvNzrqG2+CuDk3LzzW9skWPiNr0EFc6lb9c/Fbbokg07YGQ1K9B2FBcgGUBK1C1t7CuePgWVi4iWJNJbJepwH2X9SRLYAND/V1FCg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pq0DE7FGYK+YPPo1pUEgZJI2BmuzHjIvCjQOSSwvv/79H/IyrRNgXTDKtYbsFx6bdMloQjAjiV9SGWk7W2S88fKfAGMKiLjmX7wsNaKgETbDOV3Ag9dtJRvKryip43UsfcTHP2JVOJ6jF8F7GC8d9lyQaFRpusGwtCSeSrVw/CU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQT8lZ1ygU4a5LA0lrmAs3GTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAE4AMwBNAFEAMwBSAEcAXABBAGwAeQBzMB4XDTIyMTIwODExMDMxOFoXDTIzMTIwODE3MDMxOFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBOADMATQBRADMAUgBHAFwAQQBsAHkAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApq0DE7FGYK+YPPo1pUEgZJI2BmuzHjIvCjQOSSwvv/79H/IyrRNgXTDKtYbsFx6bdMloQjAjiV9SGWk7W2S88fKfAGMKiLjmX7wsNaKgETbDOV3Ag9dtJRvKryip43UsfcTHP2JVOJ6jF8F7GC8d9lyQaFRpusGwtCSeSrVw/CUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAN35O2i2yrTn144IdQT4w3ncx3Yq4c7LUYx2x4TlkjqEUknDX+YjdFzX40DVhd/totWQMHfWlRdihwrYoWckReQJiPOkbqmth92kLvNuWeyE4nHoIQWAth4rp49+Gm/kVBGxvDVZUge+IRozNir7MSdqm3Ab+QeH896TqZMKqLvA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
